@@ -10,8 +10,18 @@ font-family: "Roboto", sans-serif; */
 body {
 	font-family: var(--main-font);
 	font-style: normal;
+	font-size: 14px;
+	line-height: 1.143;
 }
 
+a {
+	text-decoration: none;
+	font-style: normal;
+}
+
+ul {
+	list-style: none;
+}
 /*==================   header   ==================*/
 .logo {
 	font-family: var(--secondary-font);
@@ -31,8 +41,6 @@ body {
 .contact_mail,
 .contact_mail {
 	font-weight: 500;
-	font-size: 14px;
-	line-height: 1.143;
 	letter-spacing: 0.02em;
 	color: #212121;
 }
@@ -40,6 +48,7 @@ body {
 .contact_mail,
 .contact_tel {
 	color: #757575;
+	
 }
 .active_link,
 .menu_list_link:hover,
@@ -92,8 +101,6 @@ body {
 
 .features_item_title {
 	font-weight: 700;
-	font-size: 14px;
-	line-height: 1.143;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: #212121;
@@ -101,7 +108,6 @@ body {
 
 .features_item_description {
 	font-weight: 400;
-	font-size: 14px;
 	line-height: 1.71;
 	/* or 171% */
 	letter-spacing: 0.03em;
@@ -149,10 +155,6 @@ height: 294px;
 
 .our_team_profession {
     font-weight: 400;
-   /* font-size: 16px;
-    line-height: 1.1875;
-    text-align: center;
-    letter-spacing: 0.03em;*/
     color: #757575;
 }
 /*==================   END OUR TEAM   ==================*/
@@ -164,11 +166,13 @@ height: 294px;
     color: #ffffff;
 }
 
-.post_address{
-    /*color: #FFFFFF;*/
-.footer > contact_mail,
-.footer > contact_phone
-color: rgba(255, 255, 255, 0.6);
+.post_address {
+	font-style: normal;
+	/*color: #FFFFFF;*/
+}
+.footer .contact_mail,
+.footer .contact_tel {
+	/*color: rgba(255, 255, 255, 0.6);*/
 }
 /*==================   END OF FOOTER   ==================*/
 
@@ -185,7 +189,9 @@ color: rgba(255, 255, 255, 0.6);
     /* identical to box height, or 162% */
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+	color: #212121;
+	background: #F5F4FA;
+	border-radius: 4px;
 }
 
 /*==================  END FILTERS   ==================*/
