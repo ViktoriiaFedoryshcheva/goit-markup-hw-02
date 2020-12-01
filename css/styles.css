@@ -11,7 +11,6 @@ body {
 	font-family: var(--main-font);
 	font-style: normal;
 	font-size: 14px;
-	line-height: 1.143;
 }
 
 a {
@@ -39,8 +38,9 @@ ul {
 
 .menu_list_link,
 .contact_mail,
-.contact_mail {
+.contact_tel {
 	font-weight: 500;
+	line-height: 1.143;
 	letter-spacing: 0.02em;
 	color: #212121;
 }
@@ -48,7 +48,6 @@ ul {
 .contact_mail,
 .contact_tel {
 	color: #757575;
-	
 }
 .active_link,
 .menu_list_link:hover,
@@ -101,6 +100,7 @@ ul {
 
 .features_item_title {
 	font-weight: 700;
+	line-height: 1.143;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: #212121;
@@ -126,8 +126,8 @@ ul {
 	color: #212121;
 }
 
-width: 370px;
-height: 294px;
+/* width: 370px;
+height: 294px; */
 /*==================   END ABOUT   ==================*/
 
 /*==================   OUR TEAM   ==================*/
@@ -141,56 +141,63 @@ height: 294px;
 	color: #212121;
 }
 
-.our_team_person, 
+.our_team_person,
 .our_team_profession {
 	font-weight: 500;
 	font-size: 16px;
-	line-height: 1.1875
+	line-height: 1.1875;
 	/* identical to box height */
 	text-align: center;
 	letter-spacing: 0.03em;
 	color: #212121;
 }
 
-
 .our_team_profession {
-    font-weight: 400;
-    color: #757575;
+	font-weight: 400;
+	color: #757575;
 }
 /*==================   END OUR TEAM   ==================*/
-
 
 /*==================   FOOTER   ==================*/
 
 .logo_white {
-    color: #ffffff;
+	color: #ffffff;
+}
+.footer {
+	/* text-decoration: none; */
+	font-weight: 400;
+	letter-spacing: 0.03em;
 }
 
 .post_address {
 	font-style: normal;
+	line-height: 1.71;
 	/*color: #FFFFFF;*/
 }
-.footer .contact_mail,
-.footer .contact_tel {
+.footer_contact_mail,
+.footer_contact_tel {
+	text-decoration: none;
+	font-style: normal; 
+	font-weight: 400; 
+	letter-spacing: 0.03em;
+	line-height: 1.71;
 	/*color: rgba(255, 255, 255, 0.6);*/
 }
 /*==================   END OF FOOTER   ==================*/
-
-
 
 /*==================   PORTFOLIO   ==================*/
 
 /*==================   FILTERS   ==================*/
 
 .filters_item {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    /* identical to box height, or 162% */
-    text-align: center;
-    letter-spacing: 0.03em;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	/* identical to box height, or 162% */
+	text-align: center;
+	letter-spacing: 0.03em;
 	color: #212121;
-	background: #F5F4FA;
+	background: #f5f4fa;
 	border-radius: 4px;
 }
 
@@ -198,20 +205,41 @@ height: 294px;
 
 /*==================   PROJECTS   ==================*/
 .proj_name {
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 2,0;
-    /* identical to box height, or 200% */
-    letter-spacing: 0.06em;
-    color: #212121;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 2, 0;
+	/* identical to box height, or 200% */
+	letter-spacing: 0.06em;
+	color: #212121;
 }
 
 .proj_description {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.87;
-    /* identical to box height, or 187% */
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.87;
+	/* identical to box height, or 187% */
 
-    letter-spacing: 0.03em;
-    color: #757575;
+	letter-spacing: 0.03em;
+	color: #757575;
+}
+
+///////
+body {
+	a p .... 
+	
+	.tel {}
+
+	.hheader {
+	}
+
+	.body {
+	}
+
+	.footer {
+		.address {
+			.tel {
+				line
+			}
+		}
+	}
 }
